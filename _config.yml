@@ -24,9 +24,27 @@ github_username:  flynnagin
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+
+links:
+  section_1: # you can use any name
+    - title: home # show on menu
+      url: / #link
+      key_trigger: 1 # link shortcut and show on the left of the title
+    - title: my posts
+      url: /posts
+      key_trigger: 2
+    - title: series
+      url: /series
+      key_trigger: 3
+    - title: tags
+      url: /tags
+      key_trigger: 4
+    - title: about me
+      url: /about
+      key_trigger: 5
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
